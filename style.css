@@ -1,0 +1,140 @@
+@charset "utf-8";
+header {
+    color: white;
+}
+h4 {
+    color: white;
+}
+h3 {
+    color: white;
+}
+html {
+    background-color: white;
+    height: 100%;
+    font-size: 24px;
+}
+body {
+    width: 85%;
+    min-width: 640px;
+    max-width: 1440px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.logo_wrapper {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(235, 235, 247);
+    position: relative;
+}
+.main {
+    width: 90%;
+    margin: auto;
+}
+.horizontalNav {
+    background-color: red;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flow-root;
+}
+.horizontalNav ul {
+    margin: 0px;
+    padding: 0px;
+}
+.horizontalNav li {
+    float: left;
+    color: white;
+    list-style-type: none;
+    width: 25%;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.horizontalNav li:hover {
+    background-color: grey;
+}
+.story_columns {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.column_gutter {
+    width: 5%;
+    float: left;
+    min-height: 1px;
+}
+.column_gutter::after {
+    content: '\200b';
+}
+article.column_one {
+    float: left;
+    width: 47.5%;
+}
+article.column_three {
+    float: left;
+    width: 47.5%;
+}
+article.column_two {
+    float: left;
+    width: 47.5%;
+}
+p.story_text {
+    font-size: 0.75em;
+    font-family: Verdana, Arial, sans-serif;
+    text-align: justify;
+    color: red;
+}
+img.story_image {
+    float: left;
+    height: 200px;
+    margin: 3% 3% 3% 0%;
+    border: 1px solid;
+    padding: 5px;
+	border: 2px solid white;
+	padding: 5px;
+
+}
+
+
+  
+h4.story_header {
+    font-size: 100%;
+    margin: 2.5% 2.5% 2.5% 2.5%;
+    text-decoration: underline;
+    color: white;
+}
+.footer_wrapper {
+    background-color: #0E1C36;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    display: flow-root;
+}
+.footer_wrapper {
+    background-color: #0E1C36; 
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    display: flow-root;
+    text-align: center; 
+    padding: 10px 0; 
+}
+
+footer p {
+    color: white; 
+    background-color: black; 
+    margin: 0; 
+}
